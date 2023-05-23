@@ -43,6 +43,6 @@ n2.next = ListNode(7)
 
 merged = sol.mergeTwoLists(n1, n2)
 ptr = merged
-while ptr is not None:
+while ptr:
     print(ptr.val)
     ptr = ptr.next
